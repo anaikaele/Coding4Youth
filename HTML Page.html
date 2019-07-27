@@ -1,0 +1,120 @@
+<!DOCTYPE HTML> 
+<html>
+	<head>
+		<title>My First HTML Page</title>
+		<link rel="stylesheet" type="text/css" href="CSS Page.css">
+	</head> 
+	<body>
+		<h1>The Walt Disney Company</h1> 
+		<p style="width:69%">Founded in 1923 when Walt Disney signed a contract with M.J.Winkler. He was going to produce a series of &quot;Alice Comdies&quot;. Back then, the company was known as the Disney Brothers Cartoon Studio.</p>
+		<div>
+			<a href="https://www.youtube.com/user/disneysshows">Disney YouTube Channel</a>
+		</div>
+		<br>
+		<br>
+		<img src="Disney Castle Logo.webp" height="300px" width="500px"/>
+		<br>
+  		<br>
+  		<table style="background: #ddccff;" border="1" style="width:69%" cellspacing="5" cellpadding="5"> 
+  			<tr>
+				<th>Movie</th> 
+				<th>Release Date</th> 
+				<th>Type of Movie</th>
+			</tr> 
+			<tr>
+				<td>Snow White and the Seven Dwarfs</td> 
+				<td>December 21, 1937</td> 
+				<td>Animated</td>
+			</tr> 
+			<tr>
+				<td>Fantasia</td> 
+				<td>November 13, 1940</td> 
+				<td>Hybrid &#40;live-action and animation&#41;</td>
+			</tr> 
+			<tr>
+				<td>Cinderella</td> 
+				<td>February 15, 1950</td> 
+				<td>Animated</td>
+			</tr> 
+			<tr>
+				<td>Peter Pan</td> 
+				<td>February 5, 1953</td> 
+				<td>Animated</td>
+			</tr> 
+			<tr>
+				<td>Lady and the Tramp</td> 
+				<td>June 22, 1955 15</td> 
+				<td>Animated</td>
+			</tr> 
+			<tr>
+				<td>Mary Poppins</td> 
+				<td>August 29, 1964</td> 
+				<td>Hybrid &#40;live-action and animation&#41;</td>
+			</tr> 
+		</table>
+		<h2>Disney Movie Survey</h2>
+		<form>
+			<fieldset>
+				<legend>Personal Information</legend>
+				<br>
+				First name:<br>
+				<input type="text" name="firstname" size="35"> 
+				<br>
+				<br>
+				Last name:<br>
+				<input type="text" name="lastname" size="35">
+				<br>
+				<br>
+				<select name="gender">
+					<option value="Value 1" selected="selected">Male</option> 
+					<option value="Value 2">Female</option> 
+					<option value="Value 3">Other</option> 
+				</select>
+			</fieldset>
+			<br>
+			<fieldset>
+				<legend>Questions</legend>
+				<ol>
+					<li>Have You Ever Been to Disney Land and/or Disney World? </li>
+						<br>
+						<input type="radio" name="movie" value="Yes, Both" id="Yes, Both"/>
+						<label for="Yes, Both">Yes, I've been to both parks</label>
+						<br>
+						<br>
+						<input type="radio" name="movie" value="Yes, Disney Land" id="Yes, Disney Land" />
+						<label for="Yes, Disney Land">Yes, I've been to Disney Land</label>
+						<br>
+						<br>
+						<input type="radio" name="movie" value="Yes, Disney World" id="Yes, Disney World"/>
+						<label for="Yes, Disney World">Yes, I've been to Disney World</label>
+						<br>
+						<br>
+						<input type="radio" name="movie" value="No" id="No"/>
+						<label for="No">No, I've never been to either park</label>
+						<br>
+						<br>
+					<li>How Old Were You When You Saw Your First Disney Movie?</li>
+						<br>
+						<input type="text" name="Age" size="35"> 
+						<br>
+						<br>
+					<li>Which of These Disney Movies Have You Seen? (Hold down the "command" or "control" key to select more than one option)</li>
+						<br>
+						<br>
+						<select name="products" multiple="multiple" size="7px"> 
+						<option value="Value 1" selected="selected">Snow White and the Seven Dwarfs</option>
+						<option value="Value 2">Fantasia</option>
+						<option value="Value 3">Cinderella</option> 
+						<option value="Value 4">Peter Pan</option> 
+						<option value="Value 5">Lady and the Tramp</option>
+						<option value="Value 6">Mary Poppins</option>
+						<option value="Value 7">None of the Above</option>
+						</select>
+						<br>
+						<br>
+					<input type="submit" value="Submit">
+				</ol>
+			</fieldset>
+		</form>
+	</body> 
+</html>
