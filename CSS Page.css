@@ -1,0 +1,20 @@
+body {
+	background-color: #b8d6e9;
+}
+h1, h2 {
+	color: navy; 
+	margin-left: 5px;
+}
+li, legend, th, strong {
+	color: navy;
+}
+form {
+	background-color: #ddccff;
+}
+form, table {
+	border: solid;
+	border-color: navy;
+}
+legend {
+	font-size: 20px;
+}
