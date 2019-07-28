@@ -1,12 +1,12 @@
 body {
-	background-color: #333;
-	color: #919191;
+	background-color: #d9b3ff;
+	color: #80bfff;
 }
 a {
 
 }
 img {
-	padding: 0 0 0 0;
+
 }
 /*----------------------------------------------HTML 5 Overrides-------------------------------------*/
 
@@ -37,16 +37,20 @@ h1, h2, h3, h4, h5, h6 {
 /*----------------------------------------------Header-------------------------------------*/
 
 #header {
-	padding: 20px 0 60px 0;
+	padding: 20px 0 100px 0;
 }
 #header #htitle {
 	float: left;
 }
 #header #htitle h1 {
-	font-size: 36px
+	margin-left: 25px;
+	font-size: 50px;
+	color: #4d4dff;
 }
 #header #htitle h2 {
-	font-size: 12px
+	margin-left: 25px;
+	font-size: 30px;
+	color: #4d4dff;
 }
 #header:after {
 	content: " ";
@@ -56,17 +60,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 #header nav ul {
 	list-style-type: none; 
-	margin: 0;
+	margin: 25px 0 0 0;
 	padding: 0px;
 	overflow: hidden; 
-	background-color: #232323;
+	background-color: white;
 }
 #header nav li {
 	float: left;
 }
 #header nav li a {
 	display: block;
-	color: #919191; 
+	color: #4d4dff; 
 	text-align: center; 
 	padding: 14px 16px; 
 	text-decoration: none;
@@ -76,6 +80,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 /*----------------------------------------------Content Area-------------------------------------*/
 
+#container {
+	color: #4d4dff;
+}
 #row2 {
 	background-color: white;
 }
@@ -100,6 +107,7 @@ h1, h2, h3, h4, h5, h6 {
 	float: left
 }
 #container .quarter p {
+	color: #42a1ff;
 	clear: both;
 	padding: 10px 0 0 0 
 }
@@ -116,5 +124,5 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 #footer p {
-
+	color: #4d4dff;
 }
