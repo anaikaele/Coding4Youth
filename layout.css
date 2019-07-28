@@ -1,6 +1,7 @@
 body {
 	background-color: #d9b3ff;
 	color: #80bfff;
+	font-family: verdana;
 }
 a {
 
@@ -76,10 +77,14 @@ h1, h2, h3, h4, h5, h6 {
 	text-decoration: none;
 }
 #header nav li a:hover {
-	color: skyblue;
+	color: #42a1ff;
 }
 /*----------------------------------------------Content Area-------------------------------------*/
 
+#Intro_Paragraph {
+	color: #80bfff;
+	font-size: 20px;
+}
 #container {
 	color: #4d4dff;
 }
@@ -91,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #container .quarter {
 	display: inline-block;
-	width: 23.7%;
+	width: 23.6%;
 	margin: 20px 15px 0 0;
 }
 #container #article_4{
@@ -116,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #container .quarter .more a {
 	text-decoration: none;
-	color: #FF9900;
+	color: #4d4dff;
 }
 /*----------------------------------------------Footer-------------------------------------*/
 
