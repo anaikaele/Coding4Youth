@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #header nav ul {
 	list-style-type: none; 
-	margin: 25px 0 0 0;
+	margin: 20px 0 0 0;
 	padding: 0px;
 	overflow: hidden; 
 	background-color: white;
@@ -81,12 +81,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 /*----------------------------------------------Content Area-------------------------------------*/
 
-#Intro_Paragraph {
+#Intro_Paragraph, #Disney_About_Intro, #Disney_YouTube {
 	color: #80bfff;
 	font-size: 20px;
 }
 #container {
 	color: #4d4dff;
+}
+h3 {
+	margin: 25px 0 0 0;
+	font-size: 30px;
 }
 #row2 {
 	background-color: white;
